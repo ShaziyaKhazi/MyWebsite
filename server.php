@@ -7,7 +7,7 @@ $email    = "";
 $errors = array(); 
 
 // connect to the database
-$db = mysqli_connect('localhost', 'root', '', 'project');
+$db = mysqli_connect('sql301.infinityfree.com', 'if0_38002862', 'hahg0Kw5TW', 'if0_38002862_project');
 
 // REGISTER USER
 if (isset($_POST['reg_user'])) {
